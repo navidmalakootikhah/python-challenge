@@ -54,7 +54,7 @@ print(f"Greatest Increase in Profits: {minchangemonth} (${minchange})")
  
 #Writing the results to a file
 
-output_path = os.path.join("..", "Resources", "new.csv")
+output_path = os.path.join("..", "Resources", "PyBank.csv")
 with open(output_path, 'w', newline='') as datafile:
 
     # Initialize csv.writer
